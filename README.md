@@ -21,23 +21,25 @@ SQL Server: En este caso la API se conecta a una base de datos local realizada e
 -- Abre algún navegador o alguna aplicacion para probar API como postman y ve a la dirección `http://localhost:3000` la aplicación se ejecutará en ese enlace.  
 
 ## 4. Explicación
+![APIenEjecucion](https://github.com/user-attachments/assets/92cbdbd7-7aeb-4a13-9e30-797a60057217)
 
+Para correr la aplicación se ejecuta el comando 'node index.js', esta imágen muestra el server en ejecucion y conectada correctamente a la base de datos.
 
-Para correr la aplicación se ejecuta el comando 'node index.js', esta imágen muestra el server en ejecucion para el funcionamiento de la aplicación.
+![ValidacionDEUsuarioExistenteEnLaBD](https://github.com/user-attachments/assets/4dfe2242-b331-46a1-9530-04ac7c43605c)
 
+Código para la validacion de datos que son ingresados por el usuario desde la interfaz de angular y se verifica si existe el user y su password en la base de datos, retorna un status OK si el usuario es encontrado y un mensaje de 'Contraseña correcta.
 
+![MostrandoUsuariosDeLaBD](https://github.com/user-attachments/assets/085a1d18-d15a-4ad3-997d-e95ad220af86)
 
+Usando el método get para mostrar los usuarios guardados en la base de datos, ejecutado desde el navegador en la ruta: http://localhost:3000/users
 
-Página de inicio de sesión, los campos de ingreso de datos cuentan con validaciones que deberán ser cumplidas para habilitar el boton de inicio de sesión y así entrar a la aplicación
+![CodigoMetodoGetMoviesSeries](https://github.com/user-attachments/assets/da868ecf-e446-43c3-aae6-eb7f165353eb)
 
+Código de los métodos Get de 'movies' y 'series' para extraer sus datos desde la base de datos.
 
+![MostrandoMovies](https://github.com/user-attachments/assets/a743d90e-9304-4168-8258-aabc62e506d9)
 
-Página de inicio de la aplicación aquí se muestran algunas recomendaciónes populares, en la parte de abajo esta la barra de navegación para visitar diferentes páginas y ver distinto contenido.
-
-
-
-Pagina de peliculas, aqui se muestran todas las peliculas disponibles en el momento, hay otras páginas similares con contenido distinto como series, eventos deportivos, historial de visitas y favoritos.
-
+Usando el método get para mostrar el listado de movies en la base de datos, ejecutado desde el navegador en la ruta: http://localhost:3000/movies
 
 
 ## 5. Proceso de desarrollo
