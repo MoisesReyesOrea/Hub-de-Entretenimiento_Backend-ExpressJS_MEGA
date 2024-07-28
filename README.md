@@ -44,6 +44,8 @@ Usando el método get para mostrar el listado de movies en la base de datos, eje
 En la siguiente imagen se muestra la página login de la interfaz en Angular conectada a la API y recibiendo respuesta con status: 200, despues de validar que el usuario y la contraseña ingresadas son correctas y existen en la base de datos SQL Server.
 ![RespuestaDesdeBackend](https://github.com/user-attachments/assets/9f88f3d2-8aa5-4c0a-ab0c-f7f25893db31)
 
+
+Si el usuario y contraseña son correctas devuelve mensaje 'Sesión iniciada correctamente'
 ![SesionIniciadaCorrectamente](https://github.com/user-attachments/assets/3b593c7b-9caf-4e8b-ab9c-a820f427e13b)
 
 
@@ -65,8 +67,10 @@ Express.js es un framework web rápido, flexible y minimalista para Node.js. Es 
 ¿Qué salio bien?  
 La comunicación con la base de datos tanto para ingresar como para extraer datos funciona perfectamente.
 
-¿Qué puedo hacer diferente?
-Se pudiera organizar mejor el código y crear ciertas excepciones para informar a los usuarios que utilicen la API sobre los posibles errores durante la ejecucion para así mejorar la experiencia y facilitar la resolucion de problemas. Ejemplo: Si la comucación no fue realizada, enviar una alerta o informe sobre las posibles causas y soluciones.
+¿Qué puedo hacer diferente?  
+Se pudiera organizar mejor el código y crear ciertas excepciones para informar a los usuarios que utilicen la API sobre los posibles errores durante la ejecucion para así mejorar la experiencia y facilitar la resolucion de problemas. Ejemplo: Si la comucación no fue realizada, enviar una alerta o informe sobre las posibles causas y soluciones.  
+
+Mejorar el uso de los códigos de estado HTTP para dar un mejor informe de lo que esta sucediendo durante la ejecución.
 
 ¿Qué no salio bien?  
 No pude completar el servicio para la inserción de datos de películas y series a la base de datos desde el fronten con Angular, pero al ser una API solo para provar la comunicación lo deje para posteriormente implementarlo ya en un backend completo con ASP.NET. 
