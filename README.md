@@ -67,15 +67,15 @@ Express.js es un framework web rápido, flexible y minimalista para Node.js. Es 
 
 
 ## 6. Tabla con Sprint Review
-**¿Qué salio bien?  
+**¿Qué salio bien?**  
 - Las peticiones en la comunicación con la base de datos para extraer datos funcionó perfectamente.
 
-**¿Qué puedo hacer diferente?  
+**¿Qué puedo hacer diferente?**  
 - Se pudiera organizar mejor el código y crear ciertas excepciones para informar a los usuarios que utilicen la API sobre los posibles errores durante la ejecucion para así mejorar la experiencia y facilitar la resolucion de problemas. Ejemplo: Si la comucación no fue realizada, enviar una alerta o informe sobre las posibles causas y soluciones.  
 
 - Mejorar el uso de los códigos de estado HTTP para dar un mejor informe de lo que esta sucediendo durante la ejecución.
 
-**¿Qué no salio bien?  
+**¿Qué no salio bien?**  
 - No pude completar el servicio para la inserción de datos de películas y series a la base de datos desde el fronten con Angular, pero al ser una API solo para provar la comunicación lo deje para posteriormente implementarlo ya en un backend completo con ASP.NET. 
 
 
