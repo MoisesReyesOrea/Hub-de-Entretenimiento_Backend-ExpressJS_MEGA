@@ -41,7 +41,7 @@ Código de los métodos Get de 'movies' y 'series' para extraer sus datos desde 
 Usando el método get para mostrar el listado de movies en la base de datos, ejecutado desde el navegador en la ruta: http://localhost:3000/movies.
 ![MostrandoMovies](https://github.com/user-attachments/assets/a743d90e-9304-4168-8258-aabc62e506d9)
 
-En la siguiente imagen se muestra la página login de la interfaz en Angular conectada a la API y recibiendo respuesta con status: 200, despues de validar que el usuario y la contraseña ingresadas son correctas y existen en la base de datos SQL Server.
+En la siguiente imagen se muestra la página login de la interfaz en Angular conectada a la API en la ruta: http://localhost:3000 y recibiendo respuesta con status: 200, despues de validar que el usuario y la contraseña ingresadas son correctas y existen en la base de datos SQL Server.
 ![RespuestaDesdeBackend](https://github.com/user-attachments/assets/9f88f3d2-8aa5-4c0a-ab0c-f7f25893db31)
 
 
