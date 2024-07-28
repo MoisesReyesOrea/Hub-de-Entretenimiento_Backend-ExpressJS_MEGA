@@ -77,6 +77,8 @@ Express.js es un framework web rápido, flexible y minimalista para Node.js. Es 
 
 **¿Qué no salio bien?**  
 - No pude completar el servicio para la inserción de datos de películas y series a la base de datos desde el fronten con Angular, pero al ser una API solo para provar la comunicación lo deje para posteriormente implementarlo ya en un backend completo con ASP.NET. 
+- Me falto implementar alertas en Angular en la parte del login para mostrar notificaciones al usuario, se realizará con el backend ya implementado en .NET.
+
 
 
 This project was generated with express@4.19.2
