@@ -56,7 +56,8 @@ Si el usuario ingresado no existe en la base de datos se devuelve un error y un 
 Si el usuario sí existe en la BD pero la contraseña no coincide con la registrada, se devuelve un error y un mensaje de 'Contraseña incorrecta'.
 ![ContraseñaIngresadaIncorrectamente](https://github.com/user-attachments/assets/1cb8b05e-5b0a-474f-89a7-2e2ce2e9c52c)
 
-Diagrama E-R de la base de datos.
+Diagrama E-R de la base de datos. NOTA: El archivo de la base de datos se encuentra en este mismo repositorio en la carpeta 'DB SQL Server', [DB SQL Server](DB SQL Server)
+
 ![Diagrama E-R Hub entretenimiento](https://github.com/user-attachments/assets/3c63924d-c57f-4b29-a476-79e87671f9df)
 
 ## 5. Proceso de desarrollo
