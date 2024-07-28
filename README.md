@@ -1,7 +1,7 @@
 # Hub De Entretenimiento - API con Express.js Mega - Liderly
 
 ## 1. Descripción
-Este repositorio cuenta con una API REST realizado con Express.js. Es un complemento a una aplicacion para la visualizacion de peliculas, series, deportes y más en formato de streaming.
+Este repositorio cuenta con una API REST realizado con Express.js. Es un complemento a una aplicación para la visualizacion de peliculas, series, deportes y más en formato de streaming.
 
 ### Objetivo
 El objetivo es crear una aplicación full stack siendo este proyecto una pequeña API que conecta una interfaz hecha en Angular v16 y una base de datos realizada en SQL Server como primera prueba de comunicación entre el frontend y la BD, para la visualización de archivos multimedia y validación de datos de usuario.
@@ -10,7 +10,7 @@ El objetivo es crear una aplicación full stack siendo este proyecto una pequeñ
 NODE: Se debe instalar NODE JS v18 o superior en el sistema operativo  
 GIT: Debe tener Instalado GIT  
 VScode: Para una mejor manipulacion de los archivos del repositorio es recomendable utilizar algun editor de codigo como VScode.  
-SQL Server: En este caso la API se conecta a una base de datos realizada en SQL Server.  
+SQL Server: En este caso la API se conecta a una base de datos local realizada en SQL Server.  
 
 ## 3. ¿Cómo ejecutar la aplicación?
 
