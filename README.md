@@ -50,11 +50,11 @@ Si el usuario y contraseña son correctas devuelve mensaje 'Sesión iniciada cor
 
 
 Si el usuario ingresado no existe en la base de datos se devuelve un error y un mensaje de 'Usuario no registrado'.
-![UsuarioNoRegistrado](https://github.com/user-attachments/assets/9caad1fb-cae8-4711-8357-edfbaa646bf8)
+![UsuarioNoRegistrado](https://github.com/user-attachments/assets/2f6e306f-8946-49b9-bf0a-d58be51c65bf)
 
 
 Si el usuario sí existe en la BD pero la contraseña no coincide con la registrada, se devuelve un error y un mensaje de 'Contraseña incorrecta'.
-![ContraseñaIngresadaIncorrectamente](https://github.com/user-attachments/assets/1cb8b05e-5b0a-474f-89a7-2e2ce2e9c52c)
+![ContraseñaIngresadaIncorrectamente](https://github.com/user-attachments/assets/abca7b8c-c09c-4cdb-8ecc-5a5dd7a07a5e)
 
 Diagrama E-R de la base de datos. NOTA: El archivo de la base de datos se encuentra en este mismo repositorio en la carpeta 'DB SQL Server', [DB_SQL_Server](DB_SQL_Server)
 
