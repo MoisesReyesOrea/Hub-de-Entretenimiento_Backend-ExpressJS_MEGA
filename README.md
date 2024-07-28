@@ -7,18 +7,18 @@ Este repositorio cuenta con una API REST realizado con Express.js. Es un complem
 El objetivo es crear una aplicación full stack siendo este proyecto una pequeña API que conecta una interfaz hecha en Angular v16 y una base de datos realizada en SQL Server como primera prueba de comunicación entre el frontend y la BD, para la visualización de archivos multimedia y validación de datos de usuario.
 
 ## 2. Requerimientos técnicos:
-NODE: Se debe instalar NODE JS v18 o superior en el sistema operativo
-GIT: Debe tener Instalado GIT
-VScode: Para una mejor manipulacion de los archivos del repositorio es recomendable utilizar algun editor de codigo como VScode.
-SQL Server: En este caso la API se conecta a una base de datos realizada en SQL Server.
+NODE: Se debe instalar NODE JS v18 o superior en el sistema operativo  
+GIT: Debe tener Instalado GIT  
+VScode: Para una mejor manipulacion de los archivos del repositorio es recomendable utilizar algun editor de codigo como VScode.  
+SQL Server: En este caso la API se conecta a una base de datos realizada en SQL Server.  
 
 ## 3. ¿Cómo ejecutar la aplicación?
 
--- Clona el repositorio haciendo git clone https://github.com/MoisesReyesOrea/Hub-de-Entretenimiento_Backend-ExpressJS_MEGA.git
+-- Clona el repositorio haciendo git clone https://github.com/MoisesReyesOrea/Hub-de-Entretenimiento_Backend-ExpressJS_MEGA.git  
 -- Instala de los paquetes y módulos requeridos con el comando: npm install  
--- Debes agregar un archivo .env dentro de la carpeta del proyecto con las credenciales de acceso a tu base de datos local de SQL Server o bien a una base de datos remota (ej: Azure), como user, password, server name, database y el puerto de la BD. 
--- Abre cualquier terminal en la direccion dentro de la carpeta del proyecto y ejecuta el comando 'node index.js' o bien hacerlo desde un editor de código.
--- Abre algún navegador o alguna aplicacion para probar API como postman y ve a la dirección `http://localhost:3000` la aplicación se ejecutará en ese enlace.
+-- Debes agregar un archivo .env dentro de la carpeta del proyecto con las credenciales de acceso a tu base de datos local de SQL Server o bien a una base de datos remota (ej: Azure), como user, password, server name, database y el puerto de la BD.  
+-- Abre cualquier terminal en la direccion dentro de la carpeta del proyecto y ejecuta el comando 'node index.js' o bien hacerlo desde un editor de código.  
+-- Abre algún navegador o alguna aplicacion para probar API como postman y ve a la dirección `http://localhost:3000` la aplicación se ejecutará en ese enlace.  
 
 ## 4. Explicación
 
