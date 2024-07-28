@@ -17,7 +17,7 @@ SQL Server: En este caso la API se conecta a una base de datos local realizada e
 -- Clona el repositorio con el comando:  ```git clone https://github.com/MoisesReyesOrea/Hub-de-Entretenimiento_Backend-ExpressJS_MEGA.git```  
 -- Instala de los paquetes y módulos requeridos con el comando: ```npm install```  
 -- Debes agregar un archivo .env dentro de la carpeta del proyecto con las credenciales de acceso a tu base de datos local de SQL Server o bien a una base de datos remota (ej: Azure), como user, password, server name, database y el puerto de la BD.  
--- Abre cualquier terminal en la direccion dentro de la carpeta del proyecto y ejecuta el comando 'node index.js' o bien hacerlo desde un editor de código.  
+-- Abre cualquier terminal en la direccion dentro de la carpeta del proyecto y ejecuta el comando ```'node index.js'``` o bien hacerlo desde un editor de código.  
 -- Abre algún navegador o alguna aplicacion para probar API como postman y ve a la dirección `http://localhost:3000` la aplicación se ejecutará en ese enlace.  
 
 ## 4. Explicación
@@ -30,7 +30,7 @@ Código para la validacion de datos que son ingresados por el usuario desde la i
 ![ValidacionDEUsuarioExistenteEnLaBD](https://github.com/user-attachments/assets/4dfe2242-b331-46a1-9530-04ac7c43605c)
 
 
-Usando el método get para mostrar los usuarios guardados en la base de datos, ejecutado desde el navegador en la ruta: http://localhost:3000/users.
+Usando el método get para mostrar los usuarios guardados en la base de datos, ejecutado desde el navegador en la ruta: ```http://localhost:3000/users```.
 ![MostrandoUsuariosDeLaBD](https://github.com/user-attachments/assets/085a1d18-d15a-4ad3-997d-e95ad220af86)
 
 
@@ -38,10 +38,10 @@ Código de los métodos Get de 'movies' y 'series' para extraer sus datos desde 
 ![CodigoMetodoGetMoviesSeries](https://github.com/user-attachments/assets/da868ecf-e446-43c3-aae6-eb7f165353eb)
 
 
-Usando el método get para mostrar el listado de movies en la base de datos, ejecutado desde el navegador en la ruta: http://localhost:3000/movies.
+Usando el método get para mostrar el listado de movies en la base de datos, ejecutado desde el navegador en la ruta: ```http://localhost:3000/movies```.
 ![MostrandoMovies](https://github.com/user-attachments/assets/a743d90e-9304-4168-8258-aabc62e506d9)
 
-En la siguiente imagen se muestra la página login de la interfaz en Angular conectada a la API en la ruta: http://localhost:3000 y recibiendo respuesta con status: 200, despues de validar que el usuario y la contraseña ingresadas son correctas y existen en la base de datos SQL Server.
+En la siguiente imagen se muestra la página login de la interfaz en Angular conectada a la API en la ruta: ```http://localhost:3000``` y recibiendo respuesta con status: 200, despues de validar que el usuario y la contraseña ingresadas son correctas y existen en la base de datos SQL Server.
 ![RespuestaDesdeBackend](https://github.com/user-attachments/assets/9f88f3d2-8aa5-4c0a-ab0c-f7f25893db31)
 
 
@@ -68,15 +68,15 @@ Express.js es un framework web rápido, flexible y minimalista para Node.js. Es 
 
 ## 6. Tabla con Sprint Review
 **¿Qué salio bien?  
-Las peticiones en la comunicación con la base de datos para extraer datos funcionó perfectamente.
+- Las peticiones en la comunicación con la base de datos para extraer datos funcionó perfectamente.
 
 **¿Qué puedo hacer diferente?  
-Se pudiera organizar mejor el código y crear ciertas excepciones para informar a los usuarios que utilicen la API sobre los posibles errores durante la ejecucion para así mejorar la experiencia y facilitar la resolucion de problemas. Ejemplo: Si la comucación no fue realizada, enviar una alerta o informe sobre las posibles causas y soluciones.  
+- Se pudiera organizar mejor el código y crear ciertas excepciones para informar a los usuarios que utilicen la API sobre los posibles errores durante la ejecucion para así mejorar la experiencia y facilitar la resolucion de problemas. Ejemplo: Si la comucación no fue realizada, enviar una alerta o informe sobre las posibles causas y soluciones.  
 
-Mejorar el uso de los códigos de estado HTTP para dar un mejor informe de lo que esta sucediendo durante la ejecución.
+- Mejorar el uso de los códigos de estado HTTP para dar un mejor informe de lo que esta sucediendo durante la ejecución.
 
 **¿Qué no salio bien?  
-No pude completar el servicio para la inserción de datos de películas y series a la base de datos desde el fronten con Angular, pero al ser una API solo para provar la comunicación lo deje para posteriormente implementarlo ya en un backend completo con ASP.NET. 
+- No pude completar el servicio para la inserción de datos de películas y series a la base de datos desde el fronten con Angular, pero al ser una API solo para provar la comunicación lo deje para posteriormente implementarlo ya en un backend completo con ASP.NET. 
 
 
 This project was generated with express@4.19.2
