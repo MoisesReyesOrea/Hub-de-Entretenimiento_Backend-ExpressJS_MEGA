@@ -53,7 +53,7 @@ Si el usuario ingresado no existe en la base de datos se devuelve un error y un 
 ![UsuarioNoRegistrado](https://github.com/user-attachments/assets/9caad1fb-cae8-4711-8357-edfbaa646bf8)
 
 
-Si el usuario sí existe en la BD pero la contraseña no coincide con la registrada en la BD, se devuelve un error y un mensaje de 'Contraseña incorrecta'.
+Si el usuario sí existe en la BD pero la contraseña no coincide con la registrada, se devuelve un error y un mensaje de 'Contraseña incorrecta'.
 ![ContraseñaIngresadaIncorrectamente](https://github.com/user-attachments/assets/1cb8b05e-5b0a-474f-89a7-2e2ce2e9c52c)
 
 
