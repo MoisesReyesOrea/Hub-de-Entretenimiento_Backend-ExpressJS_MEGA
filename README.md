@@ -14,7 +14,7 @@ SQL Server: En este caso la API se conecta a una base de datos local realizada e
 
 ## 3. ¿Cómo ejecutar la aplicación?
 
--- Clona el repositorio con el comando:  ```git clone https://github.com/MoisesReyesOrea/Hub-de-Entretenimiento_Backend-ExpressJS_MEGA.git```
+-- Clona el repositorio con el comando:  ```git clone https://github.com/MoisesReyesOrea/Hub-de-Entretenimiento_Backend-ExpressJS_MEGA.git```  
 -- Instala de los paquetes y módulos requeridos con el comando: npm install  
 -- Debes agregar un archivo .env dentro de la carpeta del proyecto con las credenciales de acceso a tu base de datos local de SQL Server o bien a una base de datos remota (ej: Azure), como user, password, server name, database y el puerto de la BD.  
 -- Abre cualquier terminal en la direccion dentro de la carpeta del proyecto y ejecuta el comando 'node index.js' o bien hacerlo desde un editor de código.  
