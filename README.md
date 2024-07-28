@@ -1,7 +1,7 @@
 # Hub De Entretenimiento - API con Express.js Mega - Liderly
 
 ## 1. Descripción
-Este repositorio cuenta con una API REST realizado con Express.js. Es un complemento a una aplicación para la visualizacion de peliculas, series, deportes y más en formato de streaming.
+Este repositorio cuenta con una API REST realizado con Express.js y con el archivo de script de la base de datos realizada en SQL Server con Managment Studio y Transact-SQL. Es un complemento a una aplicación para la visualizacion de peliculas, series, deportes y más en formato de streaming.
 
 ### Objetivo
 El objetivo es crear una aplicación full stack siendo este proyecto una pequeña API que conecta una interfaz hecha en Angular v16 y una base de datos realizada en SQL Server como primera prueba de comunicación entre el frontend y la BD, para la visualización de archivos multimedia y validación de datos de usuario.
@@ -67,7 +67,7 @@ Express.js es un framework web rápido, flexible y minimalista para Node.js. Es 
 
 ## 6. Tabla con Sprint Review
 ¿Qué salio bien?  
-La comunicación con la base de datos tanto para ingresar como para extraer datos funciona perfectamente.
+Las peticiones en la comunicación con la base de datos para extraer datos funcionó perfectamente.
 
 ¿Qué puedo hacer diferente?  
 Se pudiera organizar mejor el código y crear ciertas excepciones para informar a los usuarios que utilicen la API sobre los posibles errores durante la ejecucion para así mejorar la experiencia y facilitar la resolucion de problemas. Ejemplo: Si la comucación no fue realizada, enviar una alerta o informe sobre las posibles causas y soluciones.  
