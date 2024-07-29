@@ -43,7 +43,7 @@ Usando el método get para mostrar el listado de movies en la base de datos, eje
 
 
 Diagrama Entidad-Relación de la base de datos.  
-**NOTA: El archivo de la base de datos se encuentra en este mismo repositorio en la carpeta 'DB SQL Server', [DB_SQL_Server](DB_SQL_Server) **
+**NOTA: El archivo de la base de datos se encuentra en este mismo repositorio en la carpeta 'DB SQL Server', [DB_SQL_Server](DB_SQL_Server)**
 ![Diagrama E-R Hub entretenimiento](https://github.com/user-attachments/assets/3c63924d-c57f-4b29-a476-79e87671f9df)
 
 
